@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+            color: #374151;
+        }
+    </style>
+</head>
+<body class="antialiased leading-relaxed">
+
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#home" class="text-xl font-bold text-gray-900 hover:text-blue-600 transition duration-300">Terma Aryouma Bahtokpah</a>
+            <div class="flex space-x-4 md:space-x-8">
+                <a href="#about" class="text-gray-600 hover:text-blue-600 transition duration-300 font-medium">About</a>
+                <a href="#projects" class="text-gray-600 hover:text-blue-600 transition duration-300 font-medium">Projects</a>
+                <a href="#contact" class="text-gray-600 hover:text-blue-600 transition duration-300 font-medium">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <header id="home" class="bg-gradient-to-r from-blue-500 to-indigo-500 text-white py-16 md:py-24">
+        <div class="container mx-auto px-4 text-center">
+            <!-- Profile picture with rounded corners and shadow -->
+            <img src="c:\Users\Owner\Downloads\WhatsApp Image 2025-09-23 at 17.15.15_d4fedd22.jpg" alt="Your Profile Picture" class="w-36 h-36 mx-auto rounded-full shadow-lg mb-6 transform transition-transform duration-500 hover:scale-110">
+            <h1 class="text-4xl md:text-5xl font-extrabold mb-2">Hello, I'm Terma Aryouma Bahtokpah</h1>
+            <p class="text-lg md:text-xl font-light max-w-2xl mx-auto">
+                A passionate student in Web and Mobile Application Development. Upcoming IT Professional | Web Developer | Problem Solver
+            </p>
+        </div>
+    </header>
+
+    <main class="py-12 md:py-20">
+
+        <!-- About Section -->
+        <section id="about" class="container mx-auto px-4 mb-16 md:mb-24">
+            <div class="bg-white rounded-xl shadow-lg p-6 md:p-10">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-6 text-gray-900">About Me</h2>
+                <div class="text-gray-700 text-lg space-y-4 leading-relaxed">
+                    <p>I am a student specializing in Web and Mobile Application Development. My academic journey has given me a solid foundation in both frontend and backend technologies. I am fascinated by how technology can be used to solve real-world problems and create engaging user experiences.</p>
+                    <p>My interests include building interactive websites, exploring new programming languages, and contributing to open-source projects. I am always eager to learn and grow my skills in the dynamic field of software development.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="container mx-auto px-4 mb-16 md:mb-24">
+            <div class="bg-white rounded-xl shadow-lg p-6 md:p-10">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-8 text-gray-900">My Projects</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                    <!-- Project 1 -->
+                    <div class="bg-gray-100 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl hover:scale-105">
+                        <img src="c:\Users\Owner\OneDrive\Desktop\Information System\Screenshots\Screenshot 2025-09-23 181010.png" alt="Project 1 Image" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">MYSQL Database</h3>
+                            <p class="text-gray-600 mb-4">
+                                This project was my final exam work for the couse unit Information system. THis project was done through Ms Access and MySQLWorkBench.
+                            </p>
+                            <a href="c:\Users\Owner\OneDrive\Desktop\Database assignment IS\Terma SQL.sql" class="inline-block bg-blue-600 text-white py-2 px-4 rounded-full font-semibold text-sm transition-colors duration-300 hover:bg-blue-700">View Project</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Project 2 -->
+                    <div class="bg-gray-100 rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl hover:scale-105">
+                        <img src="c:\Users\Owner\OneDrive\Desktop\Information System\Screenshots\Screenshot 2025-09-23 174211.png" alt="Project 2 Image" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Joterma Learning Center Website</h3>
+                            <p class="text-gray-600 mb-4">
+                             This was one of my successful project. This work had a lot of challenges like inserting pictures and linking the website to another websites. This project was a Fundamental of Computing project work.
+                            </p>
+                            <a href="c:\Users\Owner\OneDrive\Desktop\FOC\Joterma.html" class="inline-block bg-blue-600 text-white py-2 px-4 rounded-full font-semibold text-sm transition-colors duration-300 hover:bg-blue-700">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="container mx-auto px-4">
+            <div class="bg-white rounded-xl shadow-lg p-6 md:p-10">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-6 text-gray-900">Get in Touch</h2>
+                <div class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-8 text-lg text-gray-700">
+                    <div class="flex items-center space-x-2">
+                        <!-- Email Icon (using SVG for simplicity) -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8m-9 13h9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h4l4-4z" />
+                        </svg>
+                        <a href="termabahtokpah3@gmail.com" class="hover:underline">termabahtokpah3@gmail.com</a>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <!-- GitHub Icon (using SVG) -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-600" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.6.11.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.545-1.385-1.33-1.755-1.33-1.755-1.09-.745.083-.73.083-.73 1.205.085 1.838 1.238 1.838 1.238 1.07 1.835 2.809 1.305 3.495.998.108-.77.418-1.305.762-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-.959.13-3.179 0 0 1-.322 3.295 1.235.957-.266 1.983-.399 3.003-.404 1.02.005 2.046.138 3.003.404 2.29-1.557 3.285-1.235 3.285-1.235.67 2.22.26 2.876.13 3.179.77.84 1.235 1.91 1.235 3.22 0 4.609-2.804 5.621-5.475 5.92.42.36.81 1.096.81 2.22 0 1.605-.015 2.89-.015 3.285 0 .32.21.693.825.575 4.765-1.589 8.2-6.085 8.2-11.385C24 5.373 18.627 0 12 0z"/>
+                        </svg>
+                        <a href="https://github.com/your-username" class="hover:underline" target="_blank">https://github.com/TermaBahtokpah18</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-6 mt-12 md:mt-20">
+        <p>&copy; 2025 Terma Aryouma Bahtokpah. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
